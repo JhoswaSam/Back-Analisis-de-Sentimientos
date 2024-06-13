@@ -53,4 +53,5 @@ def predict():
     return jsonify({'prediction': predicted_label})
 
 if __name__ == '__main__':
+    print('Servidor corriendo en http://192.168.1.10:5000/')
     app.run(debug=True)
